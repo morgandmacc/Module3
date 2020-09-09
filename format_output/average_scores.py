@@ -12,8 +12,8 @@ def average():
 
 
 if __name__ == '__main__':
-    lastName = input("Enter your last Name:")
-    firstName = input("Enter your first Name")
+    lastName = input("Enter your last name:")
+    firstName = input("Enter your first name")
     age = input("Enter your age")
     average_scores = average()
     print("{}, {} age: {} average grade: {}".format(lastName, firstName, age, average_scores))
